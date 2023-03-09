@@ -2,6 +2,7 @@
 
 import sys # sys module provides various functions and variables that are used to manipuolate different part of the Python runtime environment
 import logging
+from src.logger import logging 
 
 def error_message_details(error, error_detail:sys):
     # return type of sys 
